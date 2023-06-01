@@ -2,7 +2,6 @@
 permalink: /
 ---
 
-(picture here)
 # Yessy Purnama
 Backend Software Engineer II at Zalora Group
 
