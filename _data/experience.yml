@@ -2,18 +2,34 @@
 # Zalora
 - company: <a href="http://www.zalora.com/">Zalora Group</a>
   position: Software Engineer II
+  location: Singapore
   duration: Feb 2021 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+  summary: Own team backlog by coordinating closely with Product Manager & cross-function teams to deliver technical projects for customer-facing products.	<ul class="resume-item-list"><li>Part of the Homepage _and_ Promotion squad (not one, but two squads -- the more the merrier!)</li><li>Build and maintain microservices to be reliable in high-traffic environments, including collaborating with SRE to perform load tests frequently.</li><li>Maintain and release features to support 6 countries of Zalora operations area.</li><li>Understand API design principles, and involve in maintaining infrastructure as code (Terraform).</li><li>Encourage the team to hold a high bar of code quality while delivering high-impact products.</li></ul> Skills &rarr; Go, Unit Test, Git, AWS, Terraform, Elastic APM, Kibana, New Relic, Jenkins, MySQL, JMeter, Docker, Agile Methodologies.
 
 # BCA
 - company: <a href="https://www.bca.co.id">Bank Central Asia</a>
   position: IT Innovation Analyst
-  duration: Mar, 2019 &mdash; Feb, 2021
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
-
+  location: Jakarta, Indonesia
+  duration: Mar 2019 &mdash; Feb 2021
+  summary: To be responsible for driving the integration of technology innovation by evaluating existing business processes and analyzing pain points in business departments. Identified, validated, and experimented with pilot tests through POC and minimal viable products.
 
 # Tokopedia
 - company: <a href="https://www.tokopedia.com">Tokopedia</a>
   position: Sr Software Engineer
-  duration: May 2017 &mdash; Mar, 2019
-  summary: Built and maintained data pipelines, and visualization systems to monitor the performance of External Business Partner.
+  location: Jakarta, Indonesia
+  duration: May 2017 &mdash; Mar 2019
+  summary: In the Logistic squad, extracted and processed big streams of data from multiple data sources to gain insight for business decision making which saved time & resources and gained more company profits.<ul class="resume-item-list"><li>Built and maintained data pipelines, and visualization systems to monitor the performance of External Business Partner.</li><li>Delivered microservices to automate the financial reconciliation process of transaction data and collaborated with cross-functional engineering teams, product owners, business development, quality assurance & finance team.</li><li>Had ownership of creating elegant and reliable code while facilitating Scrum ceremonies with a team of 4 Software Engineers and 1 Quality Assurance engineer.</li><li>Communicated projects milestone with key stakeholders.</li></ul> Skill &rarr; Go, Git, PostgreSQL, Redis, NSQ, Datadog, Grafana, AWS, Docker, Test Driven Development, Agile Methodologies.
+
+# Finexus
+- company: <a href="https://www.finexusgroup.com">Finexus Group</a>
+  position: Software Engineer
+  location: Jakarta, Indonesia
+  duration: Aug 2014 &mdash; Apr 2017
+  summary: Supported local and overseas clients for Banking Credit Card Management System.<ul class="resume-item-list"><li>Identified root causes and troubleshoot technical issues on the client's testing and production server.</li><li>Assisted System Integration testing & User Acceptance testing on the client site.</li><li>Established Bank Reporting System in Disaster Recovery Center on-premise server.</li></ul> Skill &rarr; Java, Microsoft SQL Server, HTML5, Software Development Lifecycle.
+
+# UKDW
+- company: <a href="https://www.ukdw.ac.id">Duta Wacana Christian University</a>
+  position: Assistant Lecturer
+  location: Jakarta, Indonesia
+  duration: Aug 2011 &mdash; Dec 2011
+  summary: Course &colon; Introduction to Information Technology.<ul class="resume-item-list"><li>- Assisted hands-on class of 50+ attendees.</li><li>Presented course material and conducted the final exam in class.</li></ul> Skill &rarr; organization and communication skills, interpersonal skills, leadership.
