@@ -57,8 +57,8 @@
 
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.location }} &bull; {{ job.duration }}</h4>
+          <h3 class="resume-item-title" itemprop="name">{{ job.position }}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ job.company }} &bull; {{ job.location }} &bull; {{ job.duration }}</h4>
           <p class="resume-item-copy">{{ job.summary }}</p>
         </div><!-- end of resume-item -->
         {% endfor %}
@@ -98,9 +98,9 @@
 
         {% for certification in site.data.certification %}
         <div class="resume-item" itemscope itemprop="event" itemtype="https://schema.org/Event">
-          <h3 class="resume-item-title" itemprop="name">{{ certification.company }}</h3>
+          <h3 class="resume-item-title" itemprop="name">{{ certification.name }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ certification.by }} &bull; {{ certification.date }}</h4>
-          <h5 class="resume-item-details" itemprop="description"><a href="{{ certification.url }}" itemprop="url">Show credential</a></h5>
+          <p class="resume-item-copy"><a href="{{ certification.url }}" itemprop="url">Show credential</a></p>
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -116,12 +116,16 @@
         <header class="section-header">
           <h2>Skills</h2>
         </header>
-        {% for skill in site.data.skills %}
+        <!-- {% for skill in site.data.skills %} -->
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
+          <h4 class="resume-item-details">Experience: 
+            <p>{{ site.data.skills.experience }}</p>
+          </h4>
+          <h4 class="resume-item-details">Language: 
+            <p>{{ site.data.skills.language }}</p>
+          </h4>
         </div>
-        {% endfor %}
+        <!-- {% endfor %} -->
 
       </section>
       <!-- end Skills -->
@@ -146,7 +150,6 @@
               <li>{{ award.award }}</li>
               {% endfor %}
             </ul>
-
 
           <p class="resume-item-copy">{{ education.summary }}</p>
         </div>

@@ -1,10 +1,10 @@
 # Projects
 # uncomment the urls to display them, and add your own URL
 
-- project: Zalora’s Backend system
+- project: Zalora Backend system
   duration: Feb 2021 &mdash; Present
-  url: https://play.google.com/store/apps/details?id=com.zalora.android&hl=en&pli=1
-  description: Fashion-focused e-commerce platform (mobile apps and <a href="http://www.zalora.com">website</a>) operated in 6 countries in Southeast Asia with 59 million monthly visits (in 2022).
+  # url: #
+  description: Fashion-focused e-commerce platform (<a href="https://play.google.com/store/apps/details?id=com.zalora.android&hl=en&pli=1">mobile apps</a> and <a href="http://www.zalora.com">website</a>) operated in 6 countries in Southeast Asia with 59 million monthly visits (in 2022).
 
 - project: Interactive Filters in Catalog
   duration: Aug 2021 &mdash; Nov 2021

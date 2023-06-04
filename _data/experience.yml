@@ -1,17 +1,17 @@
 # Jobs
 # Zalora
 - company: <a href="http://www.zalora.com/">Zalora Group</a>
-  position: Software Engineer II
+  position: Back-End Software Engineer II
   location: Singapore
   duration: Feb 2021 &mdash; Present
-  summary: Own team backlog by coordinating closely with Product Manager & cross-function teams to deliver technical projects for customer-facing products.	<ul class="resume-item-list"><li>Part of the Homepage _and_ Promotion squad (not one, but two squads -- the more the merrier!)</li><li>Build and maintain microservices to be reliable in high-traffic environments, including collaborating with SRE to perform load tests frequently.</li><li>Maintain and release features to support 6 countries of Zalora operations area.</li><li>Understand API design principles, and involve in maintaining infrastructure as code (Terraform).</li><li>Encourage the team to hold a high bar of code quality while delivering high-impact products.</li></ul> Skills &rarr; Go, Unit Test, Git, AWS, Terraform, Elastic APM, Kibana, New Relic, Jenkins, MySQL, JMeter, Docker, Agile Methodologies.
+  summary: Own team backlog by coordinating closely with Product Manager & cross-function teams to deliver technical projects for customer-facing products.	<ul class="resume-item-list"><li>Part of the Homepage <i>and</i> Promotion squad (not one, but two squads - the more the merrier!)</li><li>Build and maintain microservices to be reliable in high-traffic environments, including collaborating with SRE to perform load tests frequently.</li><li>Maintain and release features to support 6 countries of Zalora operations area.</li><li>Understand API design principles, and involve in maintaining infrastructure as code (Terraform).</li><li>Encourage the team to hold a high bar of code quality while delivering high-impact products.</li></ul> Skills &rarr; Go, Unit Test, Git, AWS, Terraform, Elastic APM, Kibana, New Relic, Jenkins, MySQL, JMeter, Docker, Agile Methodologies.
 
 # BCA
 - company: <a href="https://www.bca.co.id">Bank Central Asia</a>
   position: IT Innovation Analyst
   location: Jakarta, Indonesia
   duration: Mar 2019 &mdash; Feb 2021
-  summary: To be responsible for driving the integration of technology innovation by evaluating existing business processes and analyzing pain points in business departments. Identified, validated, and experimented with pilot tests through POC and minimal viable products.
+  summary: To be responsible for driving the integration of technology innovation by evaluating existing business processes and analyzing pain points in business departments. Identified, validated, and experimented with pilot tests through Proof of Concept and minimal viable products. </br>Skills &rarr; Project Management, Proof of Concept,  IT Innovation.
 
 # Tokopedia
 - company: <a href="https://www.tokopedia.com">Tokopedia</a>
