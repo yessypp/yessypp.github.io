@@ -109,29 +109,6 @@
       {% endif %}
 
 
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Skills</h2>
-        </header>
-        {% for skill in site.data.skills %}
-        <div class="resume-item">
-          <h4 class="resume-item-details">Experience: 
-            <p>{{ site.data.skills.experience }}</p>
-          </h4>
-          <h4 class="resume-item-details">Language: 
-            <p>{{ site.data.skills.language }}</p>
-          </h4>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Skills -->
-      {% endif %}
-
-
       {% if site.resume_section_education %}
       <!-- begin Education -->
       <section class="content-section">
@@ -150,12 +127,41 @@
               <li>{{ award.award }}</li>
               {% endfor %}
             </ul>
-
+          </p>
           <p class="resume-item-copy">{{ education.summary }}</p>
         </div>
         {% endfor %}
       </section>
       <!-- end Education -->
+      {% endif %}
+
+
+      {% if site.resume_section_skills %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Skills</h2>
+        </header>
+        {% for skill in site.data.skills %}
+        <div class="resume-item">
+          <h4 class="resume-item-details">Experience: 
+            <p>{{ skill.experience }}</p>
+          </h4>
+          <h4 class="resume-item-details">Language: 
+            <p class="resume-item-copy" itemprop="description">
+              <ul class="resume-item-list">
+                {% for language in skill.languages %}
+                <li>{{ language.language }}</li>
+                {% endfor %}
+              </ul>
+            </p>
+          </h4>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Skills -->
       {% endif %}
 
 
